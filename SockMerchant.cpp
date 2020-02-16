@@ -1,5 +1,5 @@
 // Complete the sockMerchant function below.
-int sockMerchant(int n, vector<int> ar) { //o(nlogn)
+int sockMerchant(int n, vector<int> ar) { //o(nlogn) //C++14
     set<int> set_ar;
     int pair = 0;
     for(auto val : ar)
